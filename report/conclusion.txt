@@ -1,0 +1,8 @@
+Conclusion:-
+
+
+Future Scope:-
+As of now this application has features such as autocompletion of the given word, addition of new words in the database.
+Though these features are ample to form a good autocomplete program but still a lot more features can be added,
+to make it a little more user-friendly and feature oriented.Features such as continuous autocompletion, dictionary, etc,
+can be added in the near future.

@@ -1,0 +1,43 @@
+Insert:-
+
+loop until level<length of key
+    index <- CHAR_TO_INDEX(key[level])
+    if !pCrawl->children[index]
+       pCrawl->children[index] = getNode()
+pCrawl->isWordEnd = true
+
+
+Search:-
+
+length <- length of key
+loop until level < length
+    index <- CHAR_TO_INDEX(key[level])
+    if !pCrawl->children[index]
+        return false
+    p <- pCrawl->children[index]
+
+
+printAutoSuggestions:-
+
+struct TrieNode *Crawl <- root
+n <- length of query
+loop until n
+    index <- CHAR_TO_INDEX(query[level])
+    if (!pCrawl->children[index])
+        return 0
+    pCrawl <- pCrawl->children[index]
+
+isWord <- (pCrawl->isWordEnd==true)
+isLast <- isLastNode(pCrawl)
+
+if isWordEnd and isLast are true
+    print query
+    print ****match found****
+    return -1
+
+if isLast not true
+    prefix <- query
+    print Match found with auto complete
+    CALL suggestionsRec(pCrawl,prefix)
+    return 1
+return 1

@@ -1,0 +1,14 @@
+TrieNode:-
+struct TrieNode - *children[ALPHABET_SIZE]
+bool - isWordEnd
+
+Outside the stucture:-
+struct TrieNode *pNode,*pCrawl,*root
+int length,level,opt,y,comp,n,p,len,index,
+char currPrefix,word,srch,read_string,c
+FILE *fp,*fp2,*art,*sign
+bool isWord,isLast
+
+define:-
+ALPHABET_SIZE (26)  
+CHAR_TO_INDEX(c) ((int)c - (int)'a') 

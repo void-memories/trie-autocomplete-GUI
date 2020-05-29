@@ -1,0 +1,13 @@
+Autocomplete or word completion works so that when the writer writes the first letter or letters of a word, 
+the program predicts one or more possible words as choices. 
+If the word he intends to write is included in the list he can select it, 
+for example by using the number keys. If the word that the user wants is not predicted, 
+the writer must enter the next letter of the word. At this time, 
+the word choice(s) is altered so that the words provided begin with the same letters as those that have been selected. 
+When the word that the user wants appears it is selected, and the word is inserted into the text.
+In another form of word prediction, words most likely to follow the just written one are predicted, 
+based on recent word pairs used.Word prediction uses language modeling, 
+where within a set vocabulary the words are most likely to occur are calculated.
+Along with language modeling, basic word prediction on AAC devices is often coupled with a recency model, 
+where words that are used more frequently by the AAC user are more likely to be predicted.
+Word prediction software often also allows the user to enter their own words into the word prediction dictionaries either directly, or by "learning" words that have been written.

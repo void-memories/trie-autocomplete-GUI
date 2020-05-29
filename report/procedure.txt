@@ -1,0 +1,18 @@
+For the terminal based CUI C program:-
+1)Compile and execute the C program
+2)Type the word you want to search in the database
+3)Hit enter
+4)All the words having the prefix as the word you entered will be displayed on the terminal
+5)If you want to search for another word, press 1 or else press 0
+6)Depending upon your selection in (5), the program will either re-run or terminate
+7)If you enter a word which is not available in the database you'll have the ability to insert that word in the database
+8)Press 1 to add the word in the database or else press 0 to abort
+
+For the Tkinter based GUI Python application:-
+1)Execute the python script
+2)In the appeared dialog, enter the word you want to search in the database
+3)Click on submit
+4)All the words having the prefix as the word you entered will be displayed on a light grey section of the application
+5)To add a word that is not present in the database hit the "Add To The Dictionary" button
+6)To clear the grey screen hit the "Clear Screen" button
+7)To know about the creators of the application hit on the "About Us" button

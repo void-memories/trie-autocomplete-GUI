@@ -1,0 +1,13 @@
+Few things merge technology and philosophy as elegantly as autocomplete.
+The feature is not merely one of the microinteractions that subtly standardize our experience of the Internet; 
+it's also a kind of meta-interaction -- one that puts the "world" in "World Wide Web." 
+Type in a search query -- or type in, rather, part of a search query -- and you get a textual snapshot of humanity's collective psyche. 
+You see your desires and wonderings and wanderings, measured against the desires and wonderings and wanderings of everyone else who has ever used Google. 
+Sometimes, as a result of all this, you get sadness. Sometimes you get silliness. Sometimes you get poetry. 
+But you always get insight.
+
+The original purpose of word prediction software was to help people with physical disabilities increase their typing speed,
+[1] as well as to help them decrease the number of keystrokes needed in order to complete a word or a sentence.
+[2] The need to increase speed is noted by the fact that people who use speech-generating devices generally produce speech at a rate that is less than 10% as fast as people who use oral speech.
+[3] But the function is also very useful for anybody who writes text, particularly people–such as medical doctors–who frequently use long, 
+hard-to-spell terminology that may be technical or medical in nature.
